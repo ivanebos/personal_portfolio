@@ -50,19 +50,19 @@ export default function SkillsScreen() {
       title: "Web \n Development",
       discription: (
         <p className="text-lg">
-          As a web developer, I have a diverse set of skills that enable me to
-          create dynamic and engaging websites. With a strong foundation in{" "}
+          As a web developer, my diverse set of skills that enable me to create
+          dynamic and engaging websites. With a strong foundation in{" "}
           <b className="dark:text-gray-200">HTML</b>,{" "}
           <b className="dark:text-gray-200">CSS</b>, and{" "}
-          <b className="dark:text-gray-200">JavaScript</b>, I am able to craft
+          <b className="dark:text-gray-200">JavaScript</b>, capable to craft
           websites that are both aesthetically pleasing and highly functional.
           <br />
-          <br />I am also proficient in various front-end and back-end
-          frameworks, which allow me to build{" "}
-          <b className="dark:text-gray-200">scalable</b> and{" "}
+          <br />
+          Proficient in various front-end and back-end frameworks, which allow
+          me to build <b className="dark:text-gray-200">scalable</b> and{" "}
           <b className="dark:text-gray-200">efficient</b> websites. I enjoy
           learning new technologies to help improve my web development skills,
-          currently, I have taken interest in learning more about the{" "}
+          currently, intrested in learning more about the{" "}
           <b className="dark:text-gray-200">three.js</b> framework.
         </p>
       ),
@@ -94,20 +94,21 @@ export default function SkillsScreen() {
       title: "Programing",
       discription: (
         <p className="text-lg">
-          As a programmer, I am passionate about software and have a wide range
-          of skills in different programming domains. From game development to
-          enterprise software, I have experience working with various
-          programming languages, my strongest being{" "}
+          As a programmer, passionate about software and possess a wide range of
+          skills in different programming domains. From game development to
+          enterprise software, experiencing working with various programming
+          languages, my strongest being{" "}
           <b className="dark:text-gray-200">Python</b>,{" "}
           <b className="dark:text-gray-200">Java</b>, and{" "}
           <b className="dark:text-gray-200">C</b>.
           <br />
-          <br />I am constantly exploring new technologies to expand my
-          knowledge and skills. My current field of interest has been with web
-          development. In the future I hope to expand my knowledge in the
+          <br />
+          Constantly exploring new technologies to expand my knowledge and
+          skills. My current field of interest has been with web development. In
+          the future I hope to expand my knowledge in the
           <b className="dark:text-gray-200"> cybersecurity</b> and{" "}
-          <b className="dark:text-gray-200">automotive industry</b>. I am always
-          eager to take on new challenges. With every new challenge, I strive to
+          <b className="dark:text-gray-200">automotive industry</b>. Always
+          eager to take on new challenges. With every new challenge, striving to
           create <b className="dark:text-gray-200">efficient</b>,{" "}
           <b className="dark:text-gray-200">scalable</b>, and{" "}
           <b className="dark:text-gray-200">maintainable</b> solutions.
@@ -137,7 +138,7 @@ export default function SkillsScreen() {
       discription: (
         <p className="text-lg">
           As someone with a passion for math, I possess a deep curiosity and
-          appreciation for the insights that can be gleaned from data. Using my
+          appreciation for the insights that can be obtained from data. Using my
           technical skills I can effectively{" "}
           <b className="dark:text-gray-200">process</b>,{" "}
           <b className="dark:text-gray-200">analyze</b>, and{" "}
@@ -184,8 +185,7 @@ export default function SkillsScreen() {
           organization and productivity to become an effective programmer and
           project manager. Finally, my knowledge of{" "}
           <b className="dark:text-gray-300">Git</b> allows me to collaborate
-          effectively with team members. Combining these skills and experience I
-          am able to effectively carry out any project or problem.
+          effectively with team members.
         </p>
       ),
       skillFunc: setSkill4,
