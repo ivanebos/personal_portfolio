@@ -24,21 +24,13 @@ import Contact from "./Contact";
 import logo from "../public/logo.png";
 import face from "../public/face.png";
 
+import CV from "../public/Ivan_Ebos_Resume.pdf";
+
 const Home: NextPage = () => {
   // init variables
   const [darkMode, setDarkMode] = useState(false);
   const [showMenu, setShowMe] = useState(false);
   const [activeIcon, setActive] = useState(1);
-
-  // download resume function
-  const downloadFile = () => {
-    //const url = {file};
-    const link = document.createElement("a");
-    //link.href = url;
-    link.setAttribute("download", "ivanr.pdf");
-    document.body.appendChild(link);
-    link.click();
-  };
 
   return (
     <div className={"scroll-smooth " + (darkMode ? "dark" : "")}>
@@ -93,16 +85,15 @@ const Home: NextPage = () => {
               </a>
             </li>
 
-            {/* TODO: Resume Button Add 
             <li className="hover:scale-110 transition-all">
-              <button
+              <a
+                href={CV}
+                download
                 className=" border-2 border-blue-500 text-blue-500 px-4 py-2 rounded-md ml-8 hover:bg-blue-500 hover:text-white transition-all"
-                onClick={onButtonClick}
               >
                 Resume
-              </button>
+              </a>
             </li>
-             TODO: Resume Button Add */}
           </ul>
           <div className="md:hidden flex items-center gap-10">
             <div className="hover:scale-125 transition-all">
