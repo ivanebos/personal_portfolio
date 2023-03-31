@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         {/* --------------------------Nav Bar-------------------------- */}
         <nav className="hidden md:flex px-10 md:px-15 lg:px-40 justify-between shadow-lg dark:bg-slate-800 sticky top-0 backdrop-blur-lg z-10">
           <a href="#">
-            <Image className=" w-40 my-5 dark:invert" src={logo} alt="" />
+            <Image className=" w-20 my-5 dark:invert" src={logo} alt="" />
           </a>
           <ul className="hidden md:flex items-center font-mono dark:text-white">
             <li className="hover:scale-125 transition-all">
@@ -234,7 +234,7 @@ const Home: NextPage = () => {
         <section className="bg-gray-100 pb-20 md:pb-0 px-10 md:px-20 lg:px-40 dark:bg-slate-800 mt-10">
           <div className="text-center py-7 ">
             <Image
-              className="mx-auto w-40 dark:invert pb-3"
+              className="mx-auto w-20 dark:invert pb-3"
               src={logo}
               alt=""
             />
