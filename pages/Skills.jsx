@@ -232,7 +232,7 @@ export default function SkillsScreen() {
                 {discription}
               </div>
 
-              <div className="md:py-0 py-5">
+              <div className="md:py-0 py-5 ">
                 <div
                   className=" font-medium border-2 border-blue-400 rounded py-2 px-4 mb-2 flex justify-center gap-5 items-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all"
                   onClick={() => skillFunc(!skillVar)}
@@ -252,8 +252,8 @@ export default function SkillsScreen() {
                 <div
                   className={
                     "  " +
-                    (skillVar ? "" : "hidden md:invisible md:block ") +
-                    (format ? "pl-8" : "pr-8 md:float-right")
+                    (skillVar ? "" : "hidden md: invisible md:block ") +
+                    (format ? "md:pl-8" : "md:pr-8 md:float-right")
                   }
                 >
                   {items.map((item, index) => (

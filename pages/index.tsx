@@ -20,8 +20,6 @@ import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Contact from "./Contact";
 
-//import CV from "../public/resume.pdf";
-
 /**********Import images **********/
 import logo from "../public/logo.png";
 import face from "../public/face.png";
@@ -87,7 +85,7 @@ const Home: NextPage = () => {
 
             <li className="hover:scale-110 transition-all">
               <a
-                href="public/resume.pdf"
+                href="/resume.pdf"
                 download
                 className=" border-2 border-blue-500 text-blue-500 px-4 py-2 rounded-md ml-8 hover:bg-blue-500 hover:text-white transition-all"
               >
