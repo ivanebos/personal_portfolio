@@ -54,7 +54,7 @@ export default function SkillsScreen() {
       title: "Web \n Development",
       discription: (
         <p className="text-lg">
-          As a web developer, my diverse set of skills that enable me to create
+          As a Web Developer, my diverse set of skills enables me to create
           dynamic and engaging websites. With a strong foundation in{" "}
           <b className="dark:text-gray-200">HTML</b>,{" "}
           <b className="dark:text-gray-200">CSS</b>, and{" "}
@@ -62,11 +62,11 @@ export default function SkillsScreen() {
           websites that are both aesthetically pleasing and highly functional.
           <br />
           <br />
-          Proficient in various front-end and back-end frameworks, which allow
+          Proficient in various front-end and back-end frameworks, which allows
           me to build <b className="dark:text-gray-200">scalable</b> and{" "}
           <b className="dark:text-gray-200">efficient</b> websites. I enjoy
           learning new technologies to help improve my web development skills,
-          currently, intrested in learning more about the{" "}
+          currently interested in learning more about the{" "}
           <b className="dark:text-gray-200">three.js</b> framework.
         </p>
       ),
@@ -94,12 +94,12 @@ export default function SkillsScreen() {
     },
     {
       id: 2,
-      title: "Programing",
+      title: "Programming",
       discription: (
         <p className="text-lg">
           As a programmer, passionate about software and possess a wide range of
           skills in different programming domains. From game development to
-          enterprise software, experiencing working with various programming
+          enterprise software, experience working with various programming
           languages, my strongest being{" "}
           <b className="dark:text-gray-200">Python</b>,{" "}
           <b className="dark:text-gray-200">Java</b>, and{" "}
@@ -110,7 +110,7 @@ export default function SkillsScreen() {
           skills. My current field of interest has been with web development. In
           the future I hope to expand my knowledge in the
           <b className="dark:text-gray-200"> cybersecurity</b> and{" "}
-          <b className="dark:text-gray-200">automotive industry</b>. Always
+          <b className="dark:text-gray-200">automotive</b> industry. Always
           eager to take on new challenges. With every new challenge, striving to
           create <b className="dark:text-gray-200">efficient</b>,{" "}
           <b className="dark:text-gray-200">scalable</b>, and{" "}
@@ -148,14 +148,13 @@ export default function SkillsScreen() {
         <p className="text-lg">
           As someone with a passion for math, I possess a deep curiosity and
           appreciation for the insights that can be obtained from data. Using my
-          technical skills I can effectively{" "}
+          technical skills, I can effectively{" "}
           <b className="dark:text-gray-200">process</b>,{" "}
           <b className="dark:text-gray-200">analyze</b>, and{" "}
           <b className="dark:text-gray-200">interpret</b> complex data sets.
           <br />
           <br />
-          My current journey to achieve a minor in math provides me with a
-          strong foundation in{" "}
+          My minor in math provides me with a strong foundation in{" "}
           <b className="dark:text-gray-200">quantitative methods</b> and{" "}
           <b className="dark:text-gray-200">statistical techniques</b> that are
           essential for success in the field of data analysis.{" "}
@@ -169,15 +168,15 @@ export default function SkillsScreen() {
       title1: "Languages",
       title2: "Tools",
       list1: [
-        [<FaPython className="dark:text-gray-100" />, "Python"],
-        [<SiNumpy className="dark:text-gray-100" />, "NumPy"],
-        [<SiRstudio className="dark:text-gray-100" />, "R-Studio"],
-        [<TbCircleLetterV className="dark:text-gray-100" />, "VB"],
+        [<FaPython />, "Python"],
+        [<SiNumpy />, "NumPy"],
+        [<SiRstudio />, "R-Studio"],
+        [<TbCircleLetterV />, "VB"],
       ],
       list2: [
-        [<GiCape className="dark:text-gray-100" />, "Matlab"],
-        [<SiOctave className="dark:text-gray-100" />, "Octave"],
-        [<RiFileExcel2Fill className="dark:text-gray-100" />, "MS Excel"],
+        [<GiCape />, "Matlab"],
+        [<SiOctave />, "Octave"],
+        [<RiFileExcel2Fill />, "MS Excel"],
       ],
     },
     {
@@ -187,7 +186,7 @@ export default function SkillsScreen() {
         <p className="text-lg">
           In today's rapidly evolving tech industry, possessing a diverse tool
           set is crucial to stay competitive. Some of my experiences include
-          working with visualization software such as{" "}
+          working with virtualization software such as{" "}
           <b className="dark:text-gray-300">VMware</b> and{" "}
           <b className="dark:text-gray-300">VirtualBox</b>. My familiarity with{" "}
           <b className="dark:text-gray-300">Linux</b> and{" "}
@@ -196,7 +195,7 @@ export default function SkillsScreen() {
           <br /> <br />
           My utilization of <b className="dark:text-gray-300">
             VSCode
-          </b> and <b className="dark:text-gray-300">MS-Suite</b> improves my
+          </b> and <b className="dark:text-gray-300">MS-Suite</b> enhances my
           organization and productivity to become an effective programmer and
           project manager. Finally, my knowledge of{" "}
           <b className="dark:text-gray-300">Git</b> allows me to collaborate
@@ -251,7 +250,7 @@ export default function SkillsScreen() {
             list2,
           }) => (
             <div className="">
-              <h2 className="text-2xl pb-3 font-semibold md:text-left text-center">
+              <h2 className="text-2xl pb-3 font-semibold md:text-left text-center dark:text-white">
                 {title}
               </h2>
               <div
@@ -306,7 +305,7 @@ export default function SkillsScreen() {
                             (skillVar2 ? " hidden md:flex" : "")
                           }
                         >
-                          <div className="text-2xl text-blue-600">
+                          <div className="text-2xl text-blue-600 dark:text-blue-600">
                             {item[0]}
                           </div>
                           <p className=" text-lg ml-2 text-gray-800 dark:text-gray-100">

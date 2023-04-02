@@ -201,8 +201,8 @@ const Home: NextPage = () => {
                 Welcome to my personal portfolio!
               </p>
               <p className="font-mono leading-8 md:text-lg max-w-xl mx-auto dark:text-white">
-                Currently attending McMaster University as a third-year student,
-                studying for a degree in Computer Science.
+                Currently attending McMaster University as a third-year Computer
+                Science student.
               </p>
             </div>
 
@@ -241,7 +241,7 @@ const Home: NextPage = () => {
 
             <div className="text-gray-500 dark:text-gray-400 text-sm">
               <p className="whitespace-nowrap">
-                Est. 2023 | Designed and Coded | By Ivan Ebos
+                Designed and Coded By Ivan Ebos
               </p>
             </div>
           </div>

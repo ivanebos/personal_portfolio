@@ -18,7 +18,7 @@ const Portfolio = () => {
       link: "https://github.com/ivanebos",
       title: "Recursive Descent Parser",
       description:
-        "Designed a predictive grammar to accept boolean expressions then implemented the grammar using a recursive descent parser",
+        "Designed a predictive grammar to accept boolean expressions then implemented the grammar using a recursive descent parser.",
       tech: ["Python", "Discrete math"],
     },
     {
@@ -26,7 +26,7 @@ const Portfolio = () => {
       link: "https://github.com/ivanebos",
       title: "SQL Design Project",
       description:
-        "Given a description of system requirements, I designed an ER Model, then implemented the ER model using SQL. Launched SQL scripts to test and view information from the database",
+        "Given a description of system requirements, I designed an ER Model, then implemented the ER model using SQL. Launched SQL scripts to test and view information from the database.",
       tech: ["SQL", "PosgreSQL", "ER Diagrams"],
     },
     {
@@ -34,7 +34,7 @@ const Portfolio = () => {
       link: "https://github.com/ivanebos",
       title: "Concurrent Addition",
       description:
-        "Created multi-threading programming to calculate the summation of an array of millions of numbers",
+        "Created multi-threading programming to calculate the summation of an array of millions of numbers.",
       tech: ["Golang", "C", "Multi-Threading"],
     },
   ];
