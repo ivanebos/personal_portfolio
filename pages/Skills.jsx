@@ -39,10 +39,14 @@ import {
 } from "react-icons/tb";
 
 export default function SkillsScreen() {
-  const [showSkill1, setSkill1] = useState(false);
-  const [showSkill2, setSkill2] = useState(false);
-  const [showSkill3, setSkill3] = useState(false);
-  const [showSkill4, setSkill4] = useState(false);
+  const [showSkill1, setSkill1] = useState(true);
+  const [showSkill2, setSkill2] = useState(true);
+  const [showSkill3, setSkill3] = useState(true);
+  const [showSkill4, setSkill4] = useState(true);
+  const [showSkill5, setSkill5] = useState(true);
+  const [showSkill6, setSkill6] = useState(true);
+  const [showSkill7, setSkill7] = useState(true);
+  const [showSkill8, setSkill8] = useState(true);
 
   const skills = [
     {
@@ -67,26 +71,25 @@ export default function SkillsScreen() {
         </p>
       ),
 
-      skillFunc: setSkill1,
-      skillVar: showSkill1,
+      skillFunc1: setSkill1,
+      skillFunc2: setSkill2,
+      skillVar1: showSkill1,
+      skillVar2: showSkill2,
+
       format: false,
-      items: [
-        [<AiFillHtml5 className="dark:text-gray-100" />, "HTML5", true],
-        [<IoLogoCss3 className="dark:text-gray-100" />, "CSS", true],
-        [<SiTailwindcss className="dark:text-gray-100" />, "Tailwind", false],
-        [
-          <IoLogoJavascript className="dark:text-gray-100" />,
-          "Javascript",
-          true,
-        ],
-        [<FaReact className="dark:text-gray-100" />, "React", false],
-        [<TbBrandNextjs className="dark:text-gray-100" />, "Next.js", false],
-        [<DiNodejsSmall className="dark:text-gray-100" />, "Node.js", false],
-        [
-          <TbHexagonLetterV className="dark:text-gray-100" />,
-          "Vanta.js",
-          false,
-        ],
+      title1: "Languages",
+      title2: "Frameworks",
+      list1: [
+        [<AiFillHtml5 className="dark:text-gray-100" />, "HTML5"],
+        [<IoLogoCss3 className="dark:text-gray-100" />, "CSS"],
+        [<IoLogoJavascript className="dark:text-gray-100" />, "Javascript"],
+      ],
+      list2: [
+        [<SiTailwindcss className="dark:text-gray-100" />, "Tailwind"],
+
+        [<FaReact className="dark:text-gray-100" />, "React"],
+        [<TbBrandNextjs className="dark:text-gray-100" />, "Next.js"],
+        [<DiNodejsSmall className="dark:text-gray-100" />, "Node.js"],
       ],
     },
     {
@@ -114,22 +117,28 @@ export default function SkillsScreen() {
           <b className="dark:text-gray-200">maintainable</b> solutions.
         </p>
       ),
-      skillFunc: setSkill2,
-      skillVar: showSkill2,
+      skillFunc1: setSkill3,
+      skillFunc2: setSkill4,
+      skillVar1: showSkill3,
+      skillVar2: showSkill4,
       format: true,
-      items: [
-        [<FaPython className="dark:text-gray-100" />, "Python", true],
-        [<MdVideogameAsset className="dark:text-gray-100" />, "PyGame", false],
-        [<SiCsharp className="dark:text-gray-100" />, "C#", true],
-        [<SiSelenium className="dark:text-gray-100" />, "Selenium", false],
-        [<SiDotnet className="dark:text-gray-100" />, ".Net", false],
-        [<FaJava className="dark:text-gray-100" />, "Java", true],
-        [<SiHaskell className="dark:text-gray-100" />, "Haskell", true],
-        [<BsDatabase className="dark:text-gray-100" />, "SQL", true],
-        [<SiPostgresql className="dark:text-gray-100" />, "Postgres", false],
-        [<TbBrandGolang className="dark:text-gray-100" />, "Golang", true],
-        [<BsFillCCircleFill className="dark:text-gray-100" />, "C", true],
-        [<AiFillCode className="dark:text-gray-100" />, "POSIX", false],
+      title1: "Languages",
+      title2: "Frameworks",
+      list1: [
+        [<FaPython className="dark:text-gray-100" />, "Python"],
+        [<SiCsharp className="dark:text-gray-100" />, "C#"],
+        [<FaJava className="dark:text-gray-100" />, "Java"],
+        [<SiHaskell className="dark:text-gray-100" />, "Haskell"],
+        [<BsDatabase className="dark:text-gray-100" />, "SQL"],
+        [<TbBrandGolang className="dark:text-gray-100" />, "Golang"],
+        [<BsFillCCircleFill className="dark:text-gray-100" />, "C"],
+      ],
+      list2: [
+        [<MdVideogameAsset className="dark:text-gray-100" />, "PyGame"],
+        [<SiSelenium className="dark:text-gray-100" />, "Selenium"],
+        [<SiDotnet className="dark:text-gray-100" />, ".Net"],
+        [<SiPostgresql className="dark:text-gray-100" />, "Postgres"],
+        [<AiFillCode className="dark:text-gray-100" />, "POSIX"],
       ],
     },
     {
@@ -152,17 +161,23 @@ export default function SkillsScreen() {
           essential for success in the field of data analysis.{" "}
         </p>
       ),
-      skillFunc: setSkill3,
-      skillVar: showSkill3,
+      skillFunc1: setSkill5,
+      skillFunc2: setSkill6,
+      skillVar1: showSkill5,
+      skillVar2: showSkill6,
       format: false,
-      items: [
-        [<FaPython className="dark:text-gray-100" />, "Python", true],
-        [<SiNumpy className="dark:text-gray-100" />, "NumPy", false],
-        [<SiRstudio className="dark:text-gray-100" />, "R-Studio", true],
-        [<GiCape className="dark:text-gray-100" />, "Matlab", true],
-        [<SiOctave className="dark:text-gray-100" />, "Octave", true],
-        [<RiFileExcel2Fill className="dark:text-gray-100" />, "MS Excel", true],
-        [<TbCircleLetterV className="dark:text-gray-100" />, "VB", false],
+      title1: "Languages",
+      title2: "Tools",
+      list1: [
+        [<FaPython className="dark:text-gray-100" />, "Python"],
+        [<SiNumpy className="dark:text-gray-100" />, "NumPy"],
+        [<SiRstudio className="dark:text-gray-100" />, "R-Studio"],
+        [<TbCircleLetterV className="dark:text-gray-100" />, "VB"],
+      ],
+      list2: [
+        [<GiCape className="dark:text-gray-100" />, "Matlab"],
+        [<SiOctave className="dark:text-gray-100" />, "Octave"],
+        [<RiFileExcel2Fill className="dark:text-gray-100" />, "MS Excel"],
       ],
     },
     {
@@ -188,22 +203,23 @@ export default function SkillsScreen() {
           effectively with team members.
         </p>
       ),
-      skillFunc: setSkill4,
-      skillVar: showSkill4,
+      skillFunc1: setSkill7,
+      skillFunc2: setSkill8,
+      skillVar1: showSkill7,
+      skillVar2: showSkill8,
       format: true,
-      items: [
-        [<GrVmware className="dark:text-gray-100" />, "VMware", true],
-        [<SiVirtualbox className="dark:text-gray-100" />, "VirtualBox", true],
-
-        [<DiLinux className="dark:text-gray-100" />, "Linux", true],
-        [<TbBrandPowershell className="dark:text-gray-100" />, "Shell", true],
-        [
-          <SiMicrosoftoffice className="dark:text-gray-100" />,
-          "MS-Suite",
-          true,
-        ],
-        [<BsGit className="dark:text-gray-100" />, "Git", true],
-        [<TbBrandVscode className="dark:text-gray-100" />, "VS-Code", true],
+      title1: "Software",
+      title2: "Tools",
+      list1: [
+        [<GrVmware className="dark:text-gray-100" />, "VMware"],
+        [<SiVirtualbox className="dark:text-gray-100" />, "VirtualBox"],
+        [<DiLinux className="dark:text-gray-100" />, "Linux"],
+      ],
+      list2: [
+        [<TbBrandPowershell className="dark:text-gray-100" />, "Shell"],
+        [<SiMicrosoftoffice className="dark:text-gray-100" />, "MS-Suite"],
+        [<BsGit className="dark:text-gray-100" />, "Git"],
+        [<TbBrandVscode className="dark:text-gray-100" />, "VS-Code"],
       ],
     },
   ];
@@ -211,65 +227,95 @@ export default function SkillsScreen() {
   return (
     <section id="skills" className=" px-10 md:px-20 lg:px-40 md:pt-20 ">
       <div className="max-w-screen-lg py-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className=" md:mb-8">
+        <div className="md:mb-8">
           <p className="text-4xl font-bold inline border-b-4 border-blue-500 dark:text-white ">
             Skills
           </p>
-          <p className="py-6 dark:text-gray-400">
+          <p className=" py-6 dark:text-gray-400">
             My Skills, Tools and Technologies
           </p>
         </div>
         {skills.map(
-          ({ id, title, discription, skillFunc, skillVar, format, items }) => (
-            <div
-              key={id}
-              className={
-                "mb-10 flex flex-col-reverse md:flex-row md:justify-between md:gap-5 pb-5 " +
-                (format ? "md:flex-row-reverse" : "")
-              }
-            >
-              <div className="text-center md:text-left md:max-w-xl dark:text-gray-400 mx-auto md:mx-0">
-                {discription}
-              </div>
-
-              <div className="md:py-0 py-5 ">
-                <div
-                  className=" font-medium border-2 border-blue-400 rounded py-2 px-4 mb-2 flex justify-center gap-5 items-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all"
-                  onClick={() => skillFunc(!skillVar)}
-                >
-                  <h3 className=" select-none whitespace-nowrap pl-5 text-xl md:pl-0 dark:text-white ">
-                    {title}
-                  </h3>
-
-                  <AiFillCaretDown
-                    className={" " + (skillVar ? "hidden " : "dark:text-white")}
-                  />
-                  <AiFillCaretUp
-                    className={" " + (skillVar ? "dark:text-white" : "hidden")}
-                  />
+          ({
+            id,
+            title,
+            discription,
+            skillFunc1,
+            skillFunc2,
+            skillVar1,
+            skillVar2,
+            format,
+            title1,
+            title2,
+            list1,
+            list2,
+          }) => (
+            <div className="">
+              <h2 className="text-2xl pb-3 font-semibold md:text-left text-center">
+                {title}
+              </h2>
+              <div
+                key={id}
+                className={
+                  "mb-10 flex flex-col-reverse md:flex-row md:justify-between md:gap-5 pb-5 " +
+                  (format ? "md:flex-row-reverse" : "")
+                }
+              >
+                <div className="text-center md:text-left md:max-w-xl dark:text-gray-400 mx-auto md:mx-0">
+                  {discription}
                 </div>
+                <div className="md:py-2 md:px-2 md:border-2 rounded md:shadow-md md:w-1/2">
+                  <div className=" md:gap-5 gap-2 md:p-3 flex flex-col md:flex-row justify-evenly">
+                    <div className="flex flex-col gap-3">
+                      <h3
+                        className=" hover:text-white md:hover:text-black hover:bg-blue-500 md:hover:bg-transparent py-1 md:py-0 border-2 border-blue-500 md:border-0 text-blue-500 md:text-black text-center md:text-left font-medium text-xl md:text-2xl md:pl-0 dark:text-white transition-all rounded"
+                        onClick={() => skillFunc1(!skillVar1)}
+                      >
+                        {title1}
+                      </h3>
 
-                <div
-                  className={
-                    "  " +
-                    (skillVar ? "" : "hidden md: invisible md:block ") +
-                    (format ? "md:pl-8" : "md:pr-8 md:float-right")
-                  }
-                >
-                  {items.map((item, index) => (
-                    <div
-                      key={index}
-                      className={
-                        "flex justify-center md:justify-start items-center " +
-                        (item[2] ? "font-semibold" : "md:pl-5")
-                      }
-                    >
-                      {item[0]}
-                      <p className=" text-lg ml-2 text-gray-800 dark:text-gray-100">
-                        {item[1]}
-                      </p>
+                      {list1.map((item, index) => (
+                        <div
+                          key={index}
+                          className={
+                            "flex justify-center md:justify-start items-center gap-3 " +
+                            (skillVar1 ? " hidden md:flex" : "")
+                          }
+                        >
+                          <div className="text-2xl text-blue-600">
+                            {item[0]}
+                          </div>
+                          <p className=" text-lg ml-2 text-gray-800 dark:text-gray-100">
+                            {item[1]}
+                          </p>
+                        </div>
+                      ))}
                     </div>
-                  ))}
+                    <div className="flex flex-col gap-3">
+                      <h3
+                        className="hover:text-white md:hover:text-black hover:bg-blue-500 md:hover:bg-transparent py-1 md:py-0 border-2 border-blue-500 md:border-0 text-blue-500 md:text-black text-center md:text-left font-medium text-xl md:text-2xl md:pl-0 dark:text-white transition-all rounded"
+                        onClick={() => skillFunc2(!skillVar2)}
+                      >
+                        {title2}
+                      </h3>
+                      {list2.map((item, index) => (
+                        <div
+                          key={index}
+                          className={
+                            "flex justify-center md:justify-start items-center gap-3 " +
+                            (skillVar2 ? " hidden md:flex" : "")
+                          }
+                        >
+                          <div className="text-2xl text-blue-600">
+                            {item[0]}
+                          </div>
+                          <p className=" text-lg ml-2 text-gray-800 dark:text-gray-100">
+                            {item[1]}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
