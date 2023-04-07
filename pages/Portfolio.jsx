@@ -40,7 +40,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio" className="px-10 md:px-20 lg:px-40 md:pt-20">
+    <section id="portfolio" className="px-10 md:px-20 lg:px-40 md:pt-24">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className=" md:pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-blue-500 dark:text-white">

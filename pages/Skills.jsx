@@ -80,16 +80,16 @@ export default function SkillsScreen() {
       title1: "Languages",
       title2: "Frameworks",
       list1: [
-        [<AiFillHtml5 className="dark:text-gray-100" />, "HTML5"],
-        [<IoLogoCss3 className="dark:text-gray-100" />, "CSS"],
-        [<IoLogoJavascript className="dark:text-gray-100" />, "Javascript"],
+        [<AiFillHtml5 />, "HTML5"],
+        [<IoLogoCss3 />, "CSS"],
+        [<IoLogoJavascript />, "Javascript"],
       ],
       list2: [
-        [<SiTailwindcss className="dark:text-gray-100" />, "Tailwind"],
+        [<SiTailwindcss />, "Tailwind"],
 
-        [<FaReact className="dark:text-gray-100" />, "React"],
-        [<TbBrandNextjs className="dark:text-gray-100" />, "Next.js"],
-        [<DiNodejsSmall className="dark:text-gray-100" />, "Node.js"],
+        [<FaReact />, "React"],
+        [<TbBrandNextjs />, "Next.js"],
+        [<DiNodejsSmall />, "Node.js"],
       ],
     },
     {
@@ -125,20 +125,20 @@ export default function SkillsScreen() {
       title1: "Languages",
       title2: "Frameworks",
       list1: [
-        [<FaPython className="dark:text-gray-100" />, "Python"],
-        [<SiCsharp className="dark:text-gray-100" />, "C#"],
-        [<FaJava className="dark:text-gray-100" />, "Java"],
-        [<SiHaskell className="dark:text-gray-100" />, "Haskell"],
-        [<BsDatabase className="dark:text-gray-100" />, "SQL"],
-        [<TbBrandGolang className="dark:text-gray-100" />, "Golang"],
-        [<BsFillCCircleFill className="dark:text-gray-100" />, "C"],
+        [<FaPython />, "Python"],
+        [<SiCsharp />, "C#"],
+        [<FaJava />, "Java"],
+        [<SiHaskell />, "Haskell"],
+        [<BsDatabase />, "SQL"],
+        [<TbBrandGolang />, "Golang"],
+        [<BsFillCCircleFill />, "C"],
       ],
       list2: [
-        [<MdVideogameAsset className="dark:text-gray-100" />, "PyGame"],
-        [<SiSelenium className="dark:text-gray-100" />, "Selenium"],
-        [<SiDotnet className="dark:text-gray-100" />, ".Net"],
-        [<SiPostgresql className="dark:text-gray-100" />, "Postgres"],
-        [<AiFillCode className="dark:text-gray-100" />, "POSIX"],
+        [<MdVideogameAsset />, "PyGame"],
+        [<SiSelenium />, "Selenium"],
+        [<SiDotnet />, ".Net"],
+        [<SiPostgresql />, "Postgres"],
+        [<AiFillCode />, "POSIX"],
       ],
     },
     {
@@ -210,21 +210,21 @@ export default function SkillsScreen() {
       title1: "Software",
       title2: "Tools",
       list1: [
-        [<GrVmware className="dark:text-gray-100" />, "VMware"],
-        [<SiVirtualbox className="dark:text-gray-100" />, "VirtualBox"],
-        [<DiLinux className="dark:text-gray-100" />, "Linux"],
+        [<GrVmware />, "VMware"],
+        [<SiVirtualbox />, "VirtualBox"],
+        [<DiLinux />, "Linux"],
       ],
       list2: [
-        [<TbBrandPowershell className="dark:text-gray-100" />, "Shell"],
-        [<SiMicrosoftoffice className="dark:text-gray-100" />, "MS-Suite"],
-        [<BsGit className="dark:text-gray-100" />, "Git"],
-        [<TbBrandVscode className="dark:text-gray-100" />, "VS-Code"],
+        [<TbBrandPowershell />, "Shell"],
+        [<SiMicrosoftoffice />, "MS-Suite"],
+        [<BsGit />, "Git"],
+        [<TbBrandVscode />, "VS-Code"],
       ],
     },
   ];
 
   return (
-    <section id="skills" className=" px-10 md:px-20 lg:px-40 md:pt-20 ">
+    <section id="skills" className=" px-10 md:px-20 lg:px-40 md:pt-24 ">
       <div className="max-w-screen-lg py-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="md:mb-8">
           <p className="text-4xl font-bold inline border-b-4 border-blue-500 dark:text-white ">
