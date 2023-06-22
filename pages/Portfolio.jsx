@@ -37,6 +37,14 @@ const Portfolio = () => {
         "Created multi-threading programming to calculate the summation of an array of millions of numbers.",
       tech: ["Golang", "C", "Multi-Threading"],
     },
+    {
+      id: 5,
+      link: "https://github.com/ivanebos",
+      title: "Personal Portfolio",
+      description:
+        "Developed and launched a personal portfolio website to showcase my skills, projects, and professional accomplishments.",
+      tech: ["Javascript", "React", "Tailwind", "Netlify"],
+    },
   ];
 
   return (

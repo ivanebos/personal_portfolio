@@ -13,9 +13,9 @@ import {
 import { BiHome, BiCodeAlt } from "react-icons/bi";
 import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 import { IoMdContact } from "react-icons/io";
+import { TbHexagonLetterI } from "react-icons/tb";
 
 /**********Import Sections *********/
-
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Contact from "./Contact";
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
     <div className={"scroll-smooth " + (darkMode ? "dark" : "")}>
       <Head>
         <title>Ivan Ebos Portofolio</title>
-        <link rel="icon" href="/Logo_IE.png" />
+        <link rel="icon" href="/topLogo.png" />
       </Head>
       <main className=" bg-white dark:bg-gray-900 ">
         {/* --------------------------Nav Bar-------------------------- */}
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
 
             <li className="hover:scale-110 transition-all">
               <a
-                href="/resume.pdf"
+                href="/Ivan_Ebos_Resume.pdf"
                 download
                 className=" border-2 border-blue-500 text-blue-500 px-4 py-2 rounded-md ml-8 hover:bg-blue-500 hover:text-white transition-all"
               >

@@ -28,6 +28,7 @@ import {
   SiDotnet,
   SiNumpy,
   SiVirtualbox,
+  SiJquery,
 } from "react-icons/si";
 import {
   TbBrandNextjs,
@@ -83,6 +84,7 @@ export default function SkillsScreen() {
         [<AiFillHtml5 />, "HTML5"],
         [<IoLogoCss3 />, "CSS"],
         [<IoLogoJavascript />, "Javascript"],
+        [<SiCsharp />, "C#"],
       ],
       list2: [
         [<SiTailwindcss />, "Tailwind"],
@@ -90,6 +92,8 @@ export default function SkillsScreen() {
         [<FaReact />, "React"],
         [<TbBrandNextjs />, "Next.js"],
         [<DiNodejsSmall />, "Node.js"],
+        [<SiJquery />, "jQuery"],
+        [<SiDotnet />, "ASP.net"],
       ],
     },
     {
@@ -126,7 +130,6 @@ export default function SkillsScreen() {
       title2: "Frameworks",
       list1: [
         [<FaPython />, "Python"],
-        [<SiCsharp />, "C#"],
         [<FaJava />, "Java"],
         [<SiHaskell />, "Haskell"],
         [<BsDatabase />, "SQL"],
@@ -135,8 +138,6 @@ export default function SkillsScreen() {
       ],
       list2: [
         [<MdVideogameAsset />, "PyGame"],
-        [<SiSelenium />, "Selenium"],
-        [<SiDotnet />, ".Net"],
         [<SiPostgresql />, "Postgres"],
         [<AiFillCode />, "POSIX"],
       ],
@@ -301,7 +302,7 @@ export default function SkillsScreen() {
                         <div
                           key={index}
                           className={
-                            "flex justify-center md:justify-start items-center gap-3 " +
+                            "flex justify-center md:justify-start items-center gap-3 whitespace-nowrap " +
                             (skillVar2 ? " hidden md:flex" : "")
                           }
                         >
