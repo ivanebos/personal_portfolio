@@ -10,7 +10,7 @@ import {
 } from "react-icons/ai";
 import { BsDatabase, BsFillCCircleFill, BsGit } from "react-icons/bs";
 import { DiNodejsSmall, DiLinux } from "react-icons/di";
-import { FaReact, FaPython, FaJava } from "react-icons/fa";
+import { FaReact, FaPython, FaJava, FaGitkraken } from "react-icons/fa";
 import { GiProcessor, GiCape } from "react-icons/gi";
 import { GrVmware } from "react-icons/gr";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
@@ -29,6 +29,9 @@ import {
   SiNumpy,
   SiVirtualbox,
   SiJquery,
+  SiExpress,
+  SiMongodb,
+  SiMicrosoftsqlserver,
 } from "react-icons/si";
 import {
   TbBrandNextjs,
@@ -55,19 +58,28 @@ export default function SkillsScreen() {
       title: "Web \n Development",
       discription: (
         <p className="text-lg">
-          As a Web Developer, my diverse set of skills enables me to create
-          dynamic and engaging websites. With a strong foundation in{" "}
-          <b className="dark:text-gray-200">HTML</b>,{" "}
-          <b className="dark:text-gray-200">CSS</b>, and{" "}
-          <b className="dark:text-gray-200">JavaScript</b>, capable to craft
-          websites that are both aesthetically pleasing and highly functional.
+          Having had the privilege of working as a{" "}
+          <b className="dark:text-gray-200">Full-Stack developer</b>, I've
+          accumulated valuable experience working with a comprehensive tech
+          stack that includes{" "}
+          <b className="dark:text-gray-200">C# .NET, jQuery</b>, and{" "}
+          <b className="dark:text-gray-200">Microsoft SQL Server</b>
+          .
           <br />
           <br />
-          Proficient in various front-end and back-end frameworks, which allows
+          My professional journey, combined with my personal projects, has
+          enabled me to create <b className="dark:text-gray-200">
+            dynamic
+          </b> and <b className="dark:text-gray-200">engaging</b> websites that
+          are both <b className="dark:text-gray-200">aesthetically</b> pleasing
+          and highly <b className="dark:text-gray-200">functional</b>.
+          <br />
+          <br />
+          Being proficient in various front-end and back-end frameworks, allows
           me to build <b className="dark:text-gray-200">scalable</b> and{" "}
           <b className="dark:text-gray-200">efficient</b> websites. I enjoy
-          learning new technologies to help improve my web development skills,
-          currently interested in learning more about the{" "}
+          learning new technologies to help improve my web development skills.
+          Currently, I am interested in learning more about the{" "}
           <b className="dark:text-gray-200">three.js</b> framework.
         </p>
       ),
@@ -79,21 +91,21 @@ export default function SkillsScreen() {
 
       format: false,
       title1: "Languages",
-      title2: "Frameworks",
+      title2: "Dev. Tools",
       list1: [
         [<AiFillHtml5 />, "HTML5"],
         [<IoLogoCss3 />, "CSS"],
         [<IoLogoJavascript />, "Javascript"],
-        [<SiCsharp />, "C#"],
+        [<SiDotnet />, "C# .NET"],
       ],
       list2: [
-        [<SiTailwindcss />, "Tailwind"],
-
         [<FaReact />, "React"],
+        [<SiTailwindcss />, "Tailwind"],
         [<TbBrandNextjs />, "Next.js"],
         [<DiNodejsSmall />, "Node.js"],
         [<SiJquery />, "jQuery"],
-        [<SiDotnet />, "ASP.net"],
+        [<SiExpress />, "Express.js"],
+        [<SiMongodb />, "MongoDB"],
       ],
     },
     {
@@ -127,7 +139,7 @@ export default function SkillsScreen() {
       skillVar2: showSkill4,
       format: true,
       title1: "Languages",
-      title2: "Frameworks",
+      title2: "Dev. Tools",
       list1: [
         [<FaPython />, "Python"],
         [<FaJava />, "Java"],
@@ -140,6 +152,7 @@ export default function SkillsScreen() {
         [<MdVideogameAsset />, "PyGame"],
         [<SiPostgresql />, "Postgres"],
         [<AiFillCode />, "POSIX"],
+        [<SiMicrosoftsqlserver />, "MS SQL"],
       ],
     },
     {
@@ -220,6 +233,7 @@ export default function SkillsScreen() {
         [<SiMicrosoftoffice />, "MS-Suite"],
         [<BsGit />, "Git"],
         [<TbBrandVscode />, "VS-Code"],
+        [<FaGitkraken />, "Git Kraken"],
       ],
     },
   ];
@@ -236,26 +250,28 @@ export default function SkillsScreen() {
           </p>
         </div>
         {skills.map(
-          ({
-            id,
-            title,
-            discription,
-            skillFunc1,
-            skillFunc2,
-            skillVar1,
-            skillVar2,
-            format,
-            title1,
-            title2,
-            list1,
-            list2,
-          }) => (
-            <div className="">
+          (
+            {
+              id,
+              title,
+              discription,
+              skillFunc1,
+              skillFunc2,
+              skillVar1,
+              skillVar2,
+              format,
+              title1,
+              title2,
+              list1,
+              list2,
+            },
+            index
+          ) => (
+            <div key={id}>
               <h2 className="text-2xl pb-3 font-semibold md:text-left text-center dark:text-white">
                 {title}
               </h2>
               <div
-                key={id}
                 className={
                   "mb-10 flex flex-col-reverse md:flex-row md:justify-between md:gap-5 pb-5 " +
                   (format ? "md:flex-row-reverse" : "")
