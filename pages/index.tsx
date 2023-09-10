@@ -201,8 +201,8 @@ const Home: NextPage = () => {
                 Welcome to my personal portfolio!
               </p>
               <p className="font-mono leading-8 md:text-lg max-w-xl mx-auto dark:text-white">
-                Currently attending McMaster University as a third-year Computer
-                Science student.
+                Currently attending McMaster University as a fourth-year
+                Computer Science student.
               </p>
             </div>
 

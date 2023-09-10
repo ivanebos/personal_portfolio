@@ -75,7 +75,7 @@ export default function SkillsScreen() {
           and highly <b className="dark:text-gray-200">functional</b>.
           <br />
           <br />
-          Being proficient in various front-end and back-end frameworks, allows
+          Being proficient in various front-end and back-end frameworks allows
           me to build <b className="dark:text-gray-200">scalable</b> and{" "}
           <b className="dark:text-gray-200">efficient</b> websites. I enjoy
           learning new technologies to help improve my web development skills.
@@ -113,10 +113,10 @@ export default function SkillsScreen() {
       title: "Programming",
       discription: (
         <p className="text-lg">
-          As a programmer, passionate about software and possess a wide range of
-          skills in different programming domains. From game development to
-          enterprise software, experience working with various programming
-          languages, my strongest being{" "}
+          As a programmer I am passionate about software and possess a wide
+          range of skills in different programming domains. From game
+          development to enterprise software I have experience working with
+          various programming languages, my strongest being{" "}
           <b className="dark:text-gray-200">Python</b>,{" "}
           <b className="dark:text-gray-200">Java</b>, and{" "}
           <b className="dark:text-gray-200">C</b>.
@@ -124,7 +124,7 @@ export default function SkillsScreen() {
           <br />
           Constantly exploring new technologies to expand my knowledge and
           skills. My current field of interest has been with web development. In
-          the future I hope to expand my knowledge in the
+          the future, I hope to expand my knowledge in the
           <b className="dark:text-gray-200"> cybersecurity</b> and{" "}
           <b className="dark:text-gray-200">automotive</b> industry. Always
           eager to take on new challenges. With every new challenge, striving to
@@ -199,7 +199,7 @@ export default function SkillsScreen() {
       discription: (
         <p className="text-lg">
           In today's rapidly evolving tech industry, possessing a diverse tool
-          set is crucial to stay competitive. Some of my experiences include
+          set is crucial to staying competitive. Some of my experiences include
           working with virtualization software such as{" "}
           <b className="dark:text-gray-300">VMware</b> and{" "}
           <b className="dark:text-gray-300">VirtualBox</b>. My familiarity with{" "}
